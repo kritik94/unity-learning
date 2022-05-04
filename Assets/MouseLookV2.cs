@@ -11,7 +11,7 @@ public class MouseLookV2 : MonoBehaviour
 	public float minimumVert = -45.0f;
 	public float maximumVert = 45.0f;
 
-	public Camera playerCam;
+	[SerializeField] Camera playerCam;
 	
 	void Start() {
 		// Make the rigid body not change rotation
